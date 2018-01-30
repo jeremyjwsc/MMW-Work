@@ -1,0 +1,47 @@
+\documentclass [12pt]{article}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{epsfig}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{caption}
+\usepackage{hyperref}
+
+
+\begin{document}
+\noindent
+If we suppose that the function which governs the evolution of the size is $$S_{i,j}=g\left( Age,\% light, soil, .... \right)\times f(t) .$$ That's a function $g$ with tree related variables and a function which will tell us how it grows with respect the time, e.g., $$S_{i,j}=g\times t^2$$ or $$S_{i,j}=g\times t^5$$ or even $$S_{i,j}=g\times e^t.$$
+
+
+The main idea with these rules is to simplify the work to be done.  I divided  the rules on three lists ( in fact, the last one is only to remember us how the reproduction will be and it isn't a true list of rules): growth rules, which describes how the parameters affects (positively) the growth rate; and  death rules, which describes how the lack of certain necessities of the tree affects on its life expectancy. 
+\section*{Rules}
+\subsection*{Growth rules}
+\begin{itemize}
+\item 1st Rule: Determine the function $f(t)$.
+\item 2nd Rule: How depends the quality of the soil on $g$ growth rate. In this rule the soil can be only neutral or positive ( no negative influence).
+\item 3rd Rule: How the tree modifies the quality of the soil surround it.
+\item 4th Rule: How the light percentage (from 0 to 1)  modifies again the $g$ growth rate. $0$ will be no light and $1$ optimal sunlight quantity (0 light is not a negative thing  in this function. The bad effect of lack of sunlight is determined in the next list of rules).
+\item 5th Rule: How the actual age of the tree modifies the growth  rate $g$.
+\end{itemize}
+
+\subsection*{Death Rules}
+\begin{itemize}
+\item 1st Rule:  Max age (life expectancy) of each tree species. (We have to determine how it affects to the tree, I mean, as Alejandro told me, it could be in form of a  probability of disappear in each iteration once the value is reached ) (\textbf{Jordi})
+\item 2nd Rule: How a soil poor in nutrients  affects the  life expectancy of a tree.  (\textbf{Jordi})
+\item 3rd Rule: How the lack of sunlight or excess of it ( if it's possible) modifies the tree life expectancy.
+\end{itemize}
+
+\subsection*{Reproduction rules}
+
+
+\begin{itemize}
+\item 1st Rule: Probability of sending spores in each iteration. (In fact, it could be set artificially by us to see its effect on the total population )
+\item 2nd Rule:  Quantity of spores that each species would send.
+\item 3rd Rule: Probability that an spore in an empty place will become a tree. 
+\end{itemize}
+
+\end{document}
