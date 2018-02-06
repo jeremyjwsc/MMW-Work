@@ -370,7 +370,7 @@ anim = FuncAnimation(fig,animation,init_func=init, interval=75, frames=iteration
     
     
 
-#anim.save('/Users/cristian/Desktop/WMM/project/forest_simulation/forest_evolution.html', fps=15, extra_args=['-vcodec', 'libx264'])
+#anim.save('/Users/jeremy/Desktop/WMM/project/forest_simulation/forest_evolution.html', fps=15, extra_args=['-vcodec', 'libx264'])
     
     
     
